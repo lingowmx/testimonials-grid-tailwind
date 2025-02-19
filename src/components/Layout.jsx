@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 export const Layout = ({ mainName, isGraduate, image, testimonialOne, testimonialTwo, className }) => {
   return (
-    <div className="font-barlowSemiCondensed mb-6">
+    <div className="font-barlowSemiCondensed mb-6 shadow-xl border border-green-500">
       <div className={`rounded-xl flex flex-col p-9 ${className}`}>
         <div className="flex gap-4 items-center mb-4">
           <img src={image} alt="" className="rounded-full w-8 h-8" />

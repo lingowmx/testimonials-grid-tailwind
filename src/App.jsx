@@ -8,7 +8,8 @@ import { Patrick } from './components/Patrick'
 
 function App() {
   return (
-    <div className='p-8 bg-grey100'>
+    <div className='p-8 bg-grey100 
+    xl:grid xl:grid-cols-4 xl:gap-4 xl:grid-rows-2'>
       <Daniel />
       <Jonathan />
       <Jeanette />

@@ -14,7 +14,8 @@ export const Daniel = () => {
                       for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
                       The next 12 weeks was the best - and most grueling - time of my life. Since completing 
                       the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”"
-      className="bg-purple500 text-white"
+      className="bg-purple500 text-white
+      xl:col-start-1 xl:col-span-2"
     >
     </Layout>
   )
