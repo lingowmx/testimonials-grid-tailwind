@@ -1,5 +1,6 @@
 import { Layout } from "./Layout"
 import danielImage from "../../images/image-daniel.jpg"
+import quotesImage from "../../images/bg-pattern-quotation.svg"
 
 export const Daniel = () => {
   return (
@@ -16,6 +17,7 @@ export const Daniel = () => {
                       the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”"
       className="bg-purple500 text-white
       xl:col-start-1 xl:col-span-2"
+      quotationImage={quotesImage}
     >
     </Layout>
   )

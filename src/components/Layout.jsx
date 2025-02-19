@@ -1,9 +1,16 @@
 import PropTypes from "prop-types"
 
-export const Layout = ({ mainName, isGraduate, image, testimonialOne, testimonialTwo, className }) => {
+export const Layout = ({ mainName, isGraduate, image, testimonialOne, testimonialTwo, className, quotationImage }) => {
   return (
 
-    <div className={`font-barlowSemiCondensed mb-6 shadow-xl rounded-xl flex flex-col p-9 ${className}`}>
+    <div className={`relative font-barlowSemiCondensed mb-6 shadow-xl rounded-xl flex flex-col p-9 ${className}`}>
+      {quotationImage && (
+        <img 
+          src={quotationImage}
+          alt="quotesImage"
+          className="absolute right-8 -top-0 w-36 opacity-50 hidden xl:block "
+        />
+      )}
       <div className="flex gap-4 items-center mb-4">
         <img src={image} alt="" className="rounded-full w-8 h-8 xl:w-10 xl:h-10" />
         <div className="flex flex-col">
@@ -26,5 +33,6 @@ Layout.propTypes = {
   isGraduate: PropTypes.string.isRequired,
   testimonialOne: PropTypes.string.isRequired,
   testimonialTwo: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired
+  className: PropTypes.string.isRequired,
+  quotationImage:PropTypes.string,
 }
