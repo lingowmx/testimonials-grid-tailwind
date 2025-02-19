@@ -13,7 +13,7 @@ export const Patrick = () => {
                       gave me the confidence necessary to be able to go out in the world and present myself as a capable 
                       junior developer. The standard is above the rest. You will get the personal attention you need from 
                       an incredible community of smart and amazing people. ”"
-      className="bg-darkBlue text-grey200"
+      className="bg-darkBlue text-grey200 xl:col-start-2 col-span-2"
     >
 
     </Layout>

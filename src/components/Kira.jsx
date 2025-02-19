@@ -18,7 +18,7 @@ export const Kira = () => {
                       experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
                       100% recommend! ”
                       "
-      className="bg-white text-grey500"
+      className="bg-white text-grey500 xl:row-start-1 xl:row-span-2 xl:col-start-4"
     >
 
     </Layout>
